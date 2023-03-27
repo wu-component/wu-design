@@ -1,0 +1,60 @@
+{
+  "name": "fighting-design",
+  "version": "0.28.0",
+  "description": "Fighting design can quickly build interactive interfaces in vue3 applications, which looks good.",
+  "keywords": [
+    "fighting",
+    "design",
+    "fighting-design",
+    "vuejs",
+    "components",
+    "ui",
+    "vite",
+    "vue3",
+    "css",
+    "setup",
+    "typescript",
+    "javascript"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./es/index.js",
+      "require": "./lib/index.js",
+      "types": "./es/index.d.ts"
+    },
+    "./resolver": {
+      "require": "./resolver/index.js",
+      "import": "./resolver/index.js",
+      "types": "./resolver/index.d.ts"
+    },
+    "./dist": "./dist/",
+    "./theme": "./theme/",
+    "./es": "./es/index.js",
+    "./es/*": "./es/*.js",
+    "./es/*.js": "./es/*.js",
+    "./lib": "./lib/index.js",
+    "./lib/*": "./lib/*.js",
+    "./lib/*.js": "./lib/*.js",
+    "./*": "./*"
+  },
+  "unpkg": "dist/index.umd.js",
+  "style": "dist/index.css",
+  "sideEffects": [
+    "dist/index.css",
+    "theme/*",
+    "*.css"
+  ],
+  "author": {
+    "name": "tyh2001",
+    "url": "https://tianyuhao.cn"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FightingDesign/fighting-design/issues"
+  },
+  "homepage": "https://fighting.tianyuhao.cn",
+  "repository": "https://github.com/FightingDesign/fighting-design"
+}

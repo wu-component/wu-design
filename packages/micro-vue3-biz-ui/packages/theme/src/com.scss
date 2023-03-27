@@ -1,0 +1,64 @@
+@import '../config/var-com';
+
+.f-link {
+  outline: none;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+
+  // 超链接标签
+  .f-link__a {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.3s;
+    font-size: var(--link-size);
+    color: var(--link-color);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+  }
+
+  // icon
+  .f-svg-icon {
+    font-size: var(--link-size);
+  }
+
+  // 带有下划线状态移入
+  &:not([class~='f-link__disabled']).f-link__line:hover {
+    .f-link__a {
+      text-decoration: underline;
+      text-decoration-color: var(--link-color);
+    }
+  }
+
+  // 带有背景色状态移入
+  &:not([class~='f-link__disabled']).f-link__background:hover {
+    .f-link__a {
+      background-color: #ecf0fe;
+      border-radius: 2px;
+    }
+  }
+
+  // 普通状态下移入
+  &:not([class~='f-link__disabled']):hover {
+    .f-link__a {
+      color: var(--link-color);
+      opacity: 0.6;
+    }
+  }
+
+  // 禁止复制
+  &.f-link__no-copy {
+    user-select: none;
+  }
+
+  // 禁用
+  &.f-link__disabled {
+    .f-link__a {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+}

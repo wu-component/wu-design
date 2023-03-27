@@ -1,0 +1,7 @@
+packages:
+  # all packages in direct subdirs of packages/
+  - 'packages/micro-vue3-sdk'
+  - 'packages/micro-react-sdk'
+  - 'packages/micro-base-sdk'
+  - 'packages/micro-vue3-biz-ui'
+  - 'docs'

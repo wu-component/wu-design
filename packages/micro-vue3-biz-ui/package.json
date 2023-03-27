@@ -1,0 +1,107 @@
+{
+  "name": "@wu-web/micro-vue3-biz-ui",
+  "version": "0.0.5",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
+  "types": "./dist/es/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/es/index.js",
+      "require": "./dist/lib/index.js",
+      "types": "./dist/es/index.d.ts"
+    },
+    "./dist": "./dist/dist/",
+    "./theme": "./dist/theme/",
+    "./es": "./dist/es/index.js",
+    "./es/*": "./dist/es/*.js",
+    "./es/*.js": "./dist/es/*.js",
+    "./lib": "./dist/lib/index.js",
+    "./lib/*": "./dist/lib/*.js",
+    "./lib/*.js": "./dist/lib/*.js",
+    "./*": "./dist/*"
+  },
+  "unpkg": "./dist/dist/index.umd.js",
+  "style": "./dist/dist/index.css",
+  "sideEffects": [
+    "./dist/dist/index.css",
+    "./dist/theme/*",
+    "./dist/*.css"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "packages"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {
+    "clean": "rimraf dist && rimraf dist-icon",
+    "start": "pnpm run -C start dev",
+    "start:preview": "pnpm run -C start preview",
+    "dev:play": "pnpm run -C packages/fighting-playground dev",
+    "dev:docs": "pnpm run -C docs dev",
+    "build": "pnpm clean && pnpm build:css && pnpm build:theme && vite build",
+    "build:css": "vite build --config vite.config.css.ts",
+    "build:theme": "vite build --config vite.config.theme.ts",
+    "build:icon": "rimraf dist-icon && vite build --config vite.config.icon.ts",
+    "build:docs": "pnpm run -C docs build",
+    "build:start": "pnpm run -C start build",
+    "build:play": "pnpm run -C packages/fighting-playground build",
+    "build:resolver": "pnpm run -C packages/fighting-resolver build",
+    "serve:docs": "pnpm run -C docs serve",
+    "new": "pnpm run -C packages/fighting-add-component new",
+    "test": "vitest",
+    "prettier": "prettier --write .",
+    "commit": "cz",
+    "lint": "eslint . --cache",
+    "lint:fix": "pnpm run lint --fix",
+    "changelog": "node scripts/set-changelog",
+    "ver": "node scripts/set-version",
+    "format": "pnpm prettier && pnpm lint:fix"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "@types/node": "^17.0.42",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "autoprefixer": "^10.4.13",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.23.0",
+    "husky": "^8.0.1",
+    "jsdom": "^21.0.0",
+    "lint-staged": "^13.0.3",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "^2.6.2",
+    "pretty-quick": "^3.1.3",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-visualizer": "^5.8.0",
+    "sass": "^1.55.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.1.2",
+    "vite-plugin-dts": "2.0.0-beta.3",
+    "vitest": "^0.24.3",
+    "vue-tsc": "^1.0.11"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue,json,md,yml,yaml}": [
+      "eslint --fix"
+    ]
+  }
+}

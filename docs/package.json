@@ -1,0 +1,22 @@
+{
+  "name": "@wu-web/micro-docs",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.43"
+  },
+  "devDependencies": {
+    "@fighting-design/fighting-icon": "^0.4.0",
+    "@fighting-design/fighting-theme": "^1.1.0",
+    "@fighting-design/vite-plugin-vue-fighting-setup-name": "^0.1.0",
+    "add": "^2.0.6",
+    "fighting-design": "^0.28.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-container": "^3.0.0",
+    "pnpm": "^7.30.3"
+  }
+}
