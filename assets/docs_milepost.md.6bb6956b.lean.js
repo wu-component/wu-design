@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,N as t}from"./chunks/framework.84831fd2.js";const b=JSON.parse('{"title":"里程碑","description":"","frontmatter":{},"headers":[],"relativePath":"docs/milepost.md","lastUpdated":1679936384000}'),r={name:"docs/milepost.md"},i=t("",33),c=[i];function d(n,l,h,s,p,_){return o(),a("div",null,c)}const u=e(r,[["render",d]]);export{b as __pageData,u as default};
