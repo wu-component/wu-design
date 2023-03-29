@@ -113,7 +113,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconFaceSmile, FIconBug } from '@fighting-design/fighting-icon'
+  import { FIconFaceSmile, FIconBug } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -205,7 +205,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { AvatarInstance, AvatarProps } from 'fighting-design'
+import type { AvatarInstance, AvatarProps } from '@wu-web/fighting-design'
 ```
 
 ## 样式变量
@@ -224,7 +224,7 @@ import type { AvatarInstance, AvatarProps } from 'fighting-design'
 
 <script setup lang="ts">
   import demo1Vue from './_demos/avatar/demo1.vue'
-  import { FIconFaceSmile, FIconBug } from '@fighting-design/fighting-icon'
+  import { FIconFaceSmile, FIconBug } from '@wu-web/fighting-icon'
   const url = new URL('./_image/1.jpg', import.meta.url).href
 </script>
 

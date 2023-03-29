@@ -197,7 +197,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { ProgressInstance, ProgressProps } from 'fighting-design'
+import type { ProgressInstance, ProgressProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

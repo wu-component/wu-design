@@ -79,7 +79,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconTag } from '@fighting-design/fighting-icon'
+  import { FIconTag } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -113,7 +113,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconSkull } from '@fighting-design/fighting-icon'
+  import { FIconSkull } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -184,7 +184,7 @@ import type {
   BreadcrumbItemInstance,
   BreadcrumbItemProps,
   BreadcrumbItemTo
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### BreadcrumbItemTo
@@ -207,5 +207,5 @@ interface BreadcrumbItemTo {
 </a>
 
 <script setup lang="ts">
-  import { FIconTag, FIconSkull } from '@fighting-design/fighting-icon'
+  import { FIconTag, FIconSkull } from '@wu-web/fighting-icon'
 </script>

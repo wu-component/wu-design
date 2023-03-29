@@ -157,7 +157,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { WatermarkInstance, WatermarkProps } from 'fighting-design'
+import type { WatermarkInstance, WatermarkProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

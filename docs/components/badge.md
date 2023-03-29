@@ -242,7 +242,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { BadgeInstance, BadgeProps } from 'fighting-design'
+import type { BadgeInstance, BadgeProps } from '@wu-web/fighting-design'
 ```
 
 ## 样式变量

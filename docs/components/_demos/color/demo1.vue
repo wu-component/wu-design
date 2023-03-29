@@ -1,8 +1,8 @@
 <script lang="ts" setup>
   import { computed } from 'vue'
-  import { useColor } from '../../../../packages/fighting-design/_hooks'
   import { onCopy } from '../_utils/copy'
   import type { ComputedRef } from 'vue'
+  import {useColor} from '@wu-web/fighting-design';
 
   const colorList: ComputedRef<string[][]> = computed((): string[][] => {
     const COLOR_LIST = ['#2d5af1', '#52b35e', '#ff0200', '#fcc202'] as const

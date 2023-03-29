@@ -118,7 +118,7 @@ tabs 的基本使用
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import type { TabsType, TabsPosition } from 'fighting-design'
+  import type { TabsType, TabsPosition } from '@wu-web/fighting-design'
 
   const type = ref<TabsType>('line')
   const position = ref<TabsPosition>('top')
@@ -181,7 +181,7 @@ tabs 的基本使用
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import type { TabsJustifyContent } from 'fighting-design'
+  import type { TabsJustifyContent } from '@wu-web/fighting-design'
 
   const justifyContent = ref<TabsJustifyContent>()
 </script>
@@ -222,7 +222,7 @@ tabs 的基本使用
 </template>
 
 <script lang="ts" setup>
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const onSwitch = (name: unknown): boolean | Promise<boolean> => {
     switch (name) {
@@ -415,7 +415,7 @@ tabs 的基本使用
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import type { TabsTrigger } from 'fighting-design'
+  import type { TabsTrigger } from '@wu-web/fighting-design'
 
   const trigger = ref<TabsTrigger>('click')
 </script>
@@ -476,7 +476,7 @@ import type {
   TabsNavInstance,
   TabsPaneInstance,
   TabsPaneProps
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### TabsModelValue
@@ -539,7 +539,7 @@ type TabsEdit = (action: 'remove' | 'add', name: string, index: number) => boole
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const type = ref('line')
   const position = ref('top')

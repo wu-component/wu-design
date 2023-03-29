@@ -25,7 +25,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconSun, FIconMoon } from '@fighting-design/fighting-icon'
+  import { FIconSun, FIconMoon } from '@wu-web/fighting-icon'
   import { ref } from 'vue'
 
   const value1 = ref(true)
@@ -63,7 +63,7 @@
     FIconFaceSmile,
     FIconEye,
     FIconEyeSlash
-  } from '@fighting-design/fighting-icon'
+  } from '@wu-web/fighting-icon'
   import { ref } from 'vue'
 
   const value3 = ref(true)
@@ -105,7 +105,7 @@
     FIconFaceFrown,
     FIconEye,
     FIconEyeSlash
-  } from '@fighting-design/fighting-icon'
+  } from '@wu-web/fighting-icon'
   import { ref } from 'vue'
 
   const value5 = ref(true)
@@ -132,7 +132,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { SwapInstance, SwapProps, SwapType, SwapChange } from 'fighting-design'
+import type { SwapInstance, SwapProps, SwapType, SwapChange } from '@wu-web/fighting-design'
 ```
 
 ### SwapType
@@ -171,7 +171,7 @@ type SwapChange = (evt: MouseEvent, value: boolean) => void
    FIconFaceFrown,
    FIconEye,
    FIconEyeSlash
-   } from '@fighting-design/fighting-icon'
+   } from '@wu-web/fighting-icon'
   import { ref } from 'vue'
 
   const value1 = ref(true)

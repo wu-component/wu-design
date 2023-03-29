@@ -19,7 +19,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const openMessage = () => {
     FMessage({
@@ -51,7 +51,7 @@
 
 <script lang="ts" setup>
   import { h } from 'vue'
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const openMessageVNode = () => {
     FMessage({
@@ -93,7 +93,7 @@
 </template>
 
 <script setup lang="ts">
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const openMessage = () => {
     FMessage('这是一条消息提示')
@@ -145,7 +145,7 @@
 </template>
 
 <script setup lang="ts">
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const openMessageClose1 = () => {
     FMessage({
@@ -202,7 +202,7 @@
 </template>
 
 <script setup lang="ts">
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const openMessagePlacement = placement => {
     FMessage({
@@ -249,7 +249,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { MessageInstance, MessageProps, MessagePlacement } from 'fighting-design'
+import type { MessageInstance, MessageProps, MessagePlacement } from '@wu-web/fighting-design'
 ```
 
 ### MessagePlacement
@@ -280,7 +280,7 @@ type MessagePlacement =
 
 <script setup lang="ts">
   import { h } from 'vue'
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const openMessage = () => {
     FMessage('这是一条消息提示')

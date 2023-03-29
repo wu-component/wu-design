@@ -271,7 +271,7 @@ import type {
   CheckboxGroupInstance,
   CheckboxGroupProps,
   CheckboxGroupChange
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### CheckboxModelValue

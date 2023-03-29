@@ -11,13 +11,13 @@
 
 ```shell
 # pnpm
-pnpm add --save-dev @fighting-design/fighting-icon
+pnpm add --save-dev @wu-web/fighting-icon
 
 # npm
-npm i --save-dev @fighting-design/fighting-icon
+npm i --save-dev @wu-web/fighting-icon
 
 # yarn
-yarn add --save-dev @fighting-design/fighting-icon
+yarn add --save-dev @wu-web/fighting-icon
 ```
 
 ## 你需要注意
@@ -57,7 +57,7 @@ Fighting Design 使用 [icones](https://icones.js.org) 作为图标库，如下�
 </template>
 
 <script lang="ts" setup>
-  import { FIconApps, FIconBluetooth, FIconBook } from '@fighting-design/fighting-icon'
+  import { FIconApps, FIconBluetooth, FIconBook } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -89,7 +89,7 @@ Fighting Design 使用 [icones](https://icones.js.org) 作为图标库，如下�
 组件导出以下类型定义：
 
 ```ts
-import type { SvgIconInstance, SvgIconProps } from 'fighting-design'
+import type { SvgIconInstance, SvgIconProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors
@@ -101,7 +101,7 @@ import type { SvgIconInstance, SvgIconProps } from 'fighting-design'
 <script setup lang="ts">
   import demo1Vue from './_demos/svg-icon/demo1.vue'
   import demo2Vue from './_demos/svg-icon/demo2.vue'
-  import Svg from '@fighting-design/fighting-icon'
+  import Svg from '@wu-web/fighting-icon'
 
   const num = Object.keys(Svg).length
 </script>

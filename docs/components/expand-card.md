@@ -141,7 +141,7 @@ import type {
   ExpandCardProps,
   ExpandCardImageListItem,
   ExpandCardImageList
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### ExpandCardImageListItem

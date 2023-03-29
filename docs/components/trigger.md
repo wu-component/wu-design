@@ -159,7 +159,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { TriggerInstance, TriggerProps, TriggerTrigger } from 'fighting-design'
+import type { TriggerInstance, TriggerProps, TriggerTrigger } from '@wu-web/fighting-design'
 ```
 
 ### TriggerTrigger

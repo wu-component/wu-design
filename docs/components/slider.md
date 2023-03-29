@@ -128,7 +128,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { SliderInstance, SliderProps } from 'fighting-design'
+import type { SliderInstance, SliderProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

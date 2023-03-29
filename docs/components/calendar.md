@@ -125,7 +125,7 @@ import type {
   CalendarProps,
   CalendarChangeParams,
   CalendarChange
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### CalendarChangeParams

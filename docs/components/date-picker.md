@@ -50,7 +50,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { DatePickerInstance, DatePickerProps } from 'fighting-design'
+import type { DatePickerInstance, DatePickerProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

@@ -153,7 +153,7 @@ import type {
   DividerProps,
   DividerPosition,
   DividerType
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### DividerType

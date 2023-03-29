@@ -4,4 +4,3 @@ packages:
   - 'packages/micro-react-sdk'
   - 'packages/micro-base-sdk'
   - 'packages/micro-vue3-biz-ui'
-  - 'docs'

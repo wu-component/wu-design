@@ -185,7 +185,7 @@ import type {
   ListProps,
   ListItemInstance,
   ListItemProps
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ## Contributors

@@ -193,7 +193,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { TagInstance, TagProps } from 'fighting-design'
+import type { TagInstance, TagProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

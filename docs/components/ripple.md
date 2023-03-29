@@ -31,7 +31,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import type { FightingType } from 'fighting-design'
+  import type { FightingType } from '@wu-web/fighting-design'
 
   const typeList = ref<FightingType[]>([
     'default',
@@ -220,7 +220,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { RippleInstance, RippleProps } from 'fighting-design'
+import type { RippleInstance, RippleProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

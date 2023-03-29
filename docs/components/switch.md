@@ -178,7 +178,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconSnowflake } from '@fighting-design/fighting-icon'
+  import { FIconSnowflake } from '@wu-web/fighting-icon'
   import { ref } from 'vue'
 
   const value9 = ref(true)
@@ -208,7 +208,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { SwitchInstance, SwitchProps } from 'fighting-design'
+import type { SwitchInstance, SwitchProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors
@@ -223,7 +223,7 @@ import type { SwitchInstance, SwitchProps } from 'fighting-design'
 
 <script setup lang="ts">
   import { ref } from 'vue'
-  import { FIconSnowflake } from '@fighting-design/fighting-icon'
+  import { FIconSnowflake } from '@wu-web/fighting-icon'
 
   const value1 = ref(true)
   const value2 = ref(false)

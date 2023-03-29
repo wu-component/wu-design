@@ -48,7 +48,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { TimePickerInstance, TimePickerProps } from 'fighting-design'
+import type { TimePickerInstance, TimePickerProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

@@ -251,7 +251,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconFaceSmile } from '@fighting-design/fighting-icon'
+  import { FIconFaceSmile } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -294,7 +294,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { AlertInstance, AlertProps } from 'fighting-design'
+import type { AlertInstance, AlertProps } from '@wu-web/fighting-design'
 ```
 
 ## 样式变量
@@ -326,7 +326,7 @@ import type { AlertInstance, AlertProps } from 'fighting-design'
 </a>
 
 <script lang="ts" setup>
-  import { FIconFaceSmile } from '@fighting-design/fighting-icon'
+  import { FIconFaceSmile } from '@wu-web/fighting-icon'
   const alertList = ['把大象放进冰箱需要几步？', '第一步：打开冰箱门', '第二步：把大象装进去', '第三步：关好冰箱门']
 </script>
 

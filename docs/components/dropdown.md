@@ -102,7 +102,7 @@ import type {
   DropdownProps,
   DropdownItemInstance,
   DropdownItemProps
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ## Contributors

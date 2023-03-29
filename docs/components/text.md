@@ -262,7 +262,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { TextInstance, TextProps, TextDecoration } from 'fighting-design'
+import type { TextInstance, TextProps, TextDecoration } from '@wu-web/fighting-design'
 ```
 
 ### TextDecoration

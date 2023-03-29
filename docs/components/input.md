@@ -145,7 +145,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import { FIconCloud } from '@fighting-design/fighting-icon'
+  import { FIconCloud } from '@wu-web/fighting-icon'
 
   const value6 = ref('')
 </script>
@@ -250,7 +250,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { InputInstance, InputProps, InputType, InputEvent } from 'fighting-design'
+import type { InputInstance, InputProps, InputType, InputEvent } from '@wu-web/fighting-design'
 ```
 
 ### InputType
@@ -290,7 +290,7 @@ type InputEvent = (evt: Event, value: string) => void
   import demo1Vue from './_demos/input/demo1.vue'
   import demo2Vue from './_demos/input/demo2.vue'
   import demo3Vue from './_demos/input/demo3.vue'
-  import { FIconCloud } from '@fighting-design/fighting-icon'
+  import { FIconCloud } from '@wu-web/fighting-icon'
 
   const value1 = ref('')
   const value3 = ref('')

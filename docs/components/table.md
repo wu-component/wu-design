@@ -575,7 +575,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import { FButton, FMessage } from 'fighting-design'
+  import { FButton, FMessage } from '@wu-web/fighting-design'
 
   const columns2 = ref([
     {
@@ -755,7 +755,7 @@ import type {
   TableAlign,
   TableDate,
   TableColumns
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### TableAlign
@@ -773,7 +773,7 @@ type TableAlign = 'left' | 'center' | 'right'
 <script setup lang="ts">
   import { ref } from 'vue'
   import demo1Vue from './_demos/table/demo1.vue'
-  import { FButton, FMessage } from 'fighting-design'
+  import { FButton, FMessage } from '@wu-web/fighting-design'
 
   const columns = ref([
     {

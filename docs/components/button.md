@@ -136,7 +136,7 @@
 </template>
 
 <script setup lang="ts">
-  import { FIconApps, FIconBlock } from '@fighting-design/fighting-icon'
+  import { FIconApps, FIconBlock } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -452,7 +452,7 @@ import type {
   ButtonGroupInstance,
   ButtonGroupProps,
   ButtonGroupDirection
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### ButtonNative
@@ -503,7 +503,7 @@ type ButtonClick = (evt: MouseEvent) => void
 </a>
 
 <script setup lang="ts">
-  import { FIconApps, FIconBlock } from '@fighting-design/fighting-icon'
+  import { FIconApps, FIconBlock } from '@wu-web/fighting-icon'
 </script>
 
 <style scoped>

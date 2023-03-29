@@ -263,7 +263,7 @@ import type {
   LayoutDirection,
   MainInstance,
   MainProps
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### LayoutDirection

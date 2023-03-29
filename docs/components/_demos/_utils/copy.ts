@@ -1,4 +1,5 @@
-import { FMessage } from '../../../../packages/fighting-design/message'
+// import { FMessage } from '@wu-web/fighting-design'
+import { FMessage } from '@wu-web/fighting-design'
 
 export const onCopy = (target: string): void => {
   navigator.clipboard.writeText(target)

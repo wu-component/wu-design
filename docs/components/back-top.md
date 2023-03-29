@@ -51,7 +51,7 @@
 </f-back-top>
 
 <script lang="ts" setup>
-  import { FIconSnowflake, FIconUpload } from '@fighting-design/fighting-icon'
+  import { FIconSnowflake, FIconUpload } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -73,7 +73,7 @@
 </f-back-top>
 
 <script lang="ts" setup>
-  import { FIconUpload } from '@fighting-design/fighting-icon'
+  import { FIconUpload } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -140,7 +140,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { BackTopInstance, BackTopProps, BackTopBehavior } from 'fighting-design'
+import type { BackTopInstance, BackTopProps, BackTopBehavior } from '@wu-web/fighting-design'
 ```
 
 ### BackTopBehavior
@@ -172,7 +172,7 @@ type BackTopBehavior = 'smooth' | 'auto'
 </a>
 
 <script setup lang="ts">
-  import { FIconSnowflake, FIconUpload } from '@fighting-design/fighting-icon'
+  import { FIconSnowflake, FIconUpload } from '@wu-web/fighting-icon'
 </script>
 
 <style scoped>

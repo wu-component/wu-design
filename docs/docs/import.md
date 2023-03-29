@@ -8,7 +8,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import FightingDesign from 'fighting-design'
+import FightingDesign from '@wu-web/fighting-design'
 import 'fighting-design/dist/index.css'
 
 createApp(App).use(FightingDesign).mount('#app')
@@ -23,7 +23,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 // 组件按需引入
-import { FButton, FCard } from 'fighting-design'
+import { FButton, FCard } from '@wu-web/fighting-design'
 
 // 样式按需引入
 import 'fighting-design/theme/button.css'
