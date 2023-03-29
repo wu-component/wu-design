@@ -47,14 +47,18 @@ importers:
       '@fighting-design/fighting-icon': ^0.4.0
       '@fighting-design/fighting-theme': ^1.1.0
       '@fighting-design/vite-plugin-vue-fighting-setup-name': ^0.1.0
+      '@wu-web/fighting-design': ^0.28.0
       add: ^2.0.6
       fighting-design: ^0.28.0
       markdown-it: ^13.0.1
       markdown-it-container: ^3.0.0
       pnpm: ^7.30.3
       vitepress: 1.0.0-alpha.43
+      vue: ^3.2.47
     dependencies:
+      '@wu-web/fighting-design': 0.28.0
       vitepress: 1.0.0-alpha.43
+      vue: 3.2.47
     devDependencies:
       '@fighting-design/fighting-icon': 0.4.0
       '@fighting-design/fighting-theme': 1.1.0
@@ -63,7 +67,7 @@ importers:
       fighting-design: 0.28.0
       markdown-it: 13.0.1
       markdown-it-container: 3.0.0
-      pnpm: 7.30.3
+      pnpm: 7.30.5
 
   packages/micro-base-sdk:
     specifiers:
@@ -2200,7 +2204,7 @@ packages:
     resolution: {integrity: sha512-2xAv2GFuHzzmG0SSZgf8wHX0qZX8n9Y1ZirKUk5Wrdc+vH9CL837x2hZIUdwcPZI9caBA+/CzxsS68O4waYjUQ==}
     dependencies:
       '@docsearch/react': 3.3.3
-      preact: 10.13.1
+      preact: 10.13.2
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -4666,6 +4670,10 @@ packages:
       webpack-cli: 4.10.0_n3zdsxvnwy5fb57hdl4e2pg2xm
       webpack-dev-server: 4.13.1_wtczc4s5h25m52tvy5wbcmgnzy
     dev: true
+
+  /@wu-web/fighting-design/0.28.0:
+    resolution: {integrity: sha512-AfQQuUMcICyF+fQLKdS11PNXkkPKAEjSBHg7yXG3s42ff3LLAq1KEDWsy24H/PpOXMNVSS/dAEqb98Wsmu2YCg==}
+    dev: false
 
   /@xtuc/ieee754/1.2.0:
     resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}
@@ -12872,8 +12880,8 @@ packages:
     resolution: {integrity: sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==}
     dev: true
 
-  /pnpm/7.30.3:
-    resolution: {integrity: sha512-Z/pNEfZF45OwdZSUAeSTYySs27UW+GG4AQ2iXz4u127QVtkCMCeyrMNZmb/17BazaZTtvXqk/+jxTVkyh8apIA==}
+  /pnpm/7.30.5:
+    resolution: {integrity: sha512-kXiH7+iGhDcm3UVhjb4pzbRYljoT2KVR8WFL37b+c15F9CuaLau0RTozrXx/9snf1JEmGICjRnMM2XArmM01sg==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
@@ -13552,8 +13560,8 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /preact/10.13.1:
-    resolution: {integrity: sha512-KyoXVDU5OqTpG9LXlB3+y639JAGzl8JSBXLn1J9HTSB3gbKcuInga7bZnXLlxmK94ntTs1EFeZp0lrja2AuBYQ==}
+  /preact/10.13.2:
+    resolution: {integrity: sha512-q44QFLhOhty2Bd0Y46fnYW0gD/cbVM9dUVtNTDKPcdXSMA7jfY+Jpd6rk3GB0lcQss0z5s/6CmVP0Z/hV+g6pw==}
     dev: false
 
   /prelude-ls/1.1.2:

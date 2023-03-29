@@ -146,7 +146,7 @@ import type {
   SelectChange,
   OptionInstance,
   OptionProps
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### SelectModelValue

@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const onBack = () => {
     FMessage.primary('Go Back')
@@ -47,7 +47,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconReply } from '@fighting-design/fighting-icon'
+  import { FIconReply } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -98,7 +98,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { PageHeaderInstance, PageHeaderProps } from 'fighting-design'
+import type { PageHeaderInstance, PageHeaderProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors
@@ -112,8 +112,8 @@ import type { PageHeaderInstance, PageHeaderProps } from 'fighting-design'
 </a>
 
 <script setup lang="ts">
-  import { FIconReply } from '@fighting-design/fighting-icon'
-  import { FMessage } from 'fighting-design'
+  import { FIconReply } from '@wu-web/fighting-icon'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const goBack = () => {
     FMessage.primary('Go Back')

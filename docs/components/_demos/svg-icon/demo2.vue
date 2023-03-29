@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-  import Svg from '@fighting-design/fighting-icon'
+  import Svg from '@wu-web/fighting-icon'
   import { onCopy } from '../_utils/copy'
 
   const handleClick = (icon: string): void => {

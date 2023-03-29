@@ -46,7 +46,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import type { PopupDirection } from 'fighting-design'
+  import type { PopupDirection } from '@wu-web/fighting-design'
 
   const visible2 = ref(false)
   const direction = ref<PopupDirection>('center')
@@ -91,7 +91,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { PopupInstance, PopupProps, PopupDirection } from 'fighting-design'
+import type { PopupInstance, PopupProps, PopupDirection } from '@wu-web/fighting-design'
 ```
 
 ### PopupDirection

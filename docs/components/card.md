@@ -123,7 +123,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { CardInstance, CardProps, CardShadow, CardClose } from 'fighting-design'
+import type { CardInstance, CardProps, CardShadow, CardClose } from '@wu-web/fighting-design'
 ```
 
 ### CardShadow

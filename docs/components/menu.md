@@ -88,7 +88,7 @@
     FIconBlock,
     FIconCameraVideoSlash,
     FIconClock
-  } from '@fighting-design/fighting-icon'
+  } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -248,7 +248,7 @@
     FIconBlock,
     FIconCameraVideoSlash,
     FIconClock
-  } from '@fighting-design/fighting-icon'
+  } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -331,7 +331,7 @@ import type {
   MenuItemGroupProps,
   SubmenuInstance,
   SubmenuProps
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### MenuMode
@@ -359,5 +359,5 @@ type SubmenuClick = (evt: MouseEvent, target: boolean) => void
 </a>
 
 <script lang="ts" setup>
-  import { FIconApps, FIconBlock, FIconCameraVideoSlash, FIconClock } from '@fighting-design/fighting-icon'
+  import { FIconApps, FIconBlock, FIconCameraVideoSlash, FIconClock } from '@wu-web/fighting-icon'
 </script>

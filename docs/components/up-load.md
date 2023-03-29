@@ -129,7 +129,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { UpLoadInstance, UpLoadProps, UpLoadCallback } from 'fighting-design'
+import type { UpLoadInstance, UpLoadProps, UpLoadCallback } from '@wu-web/fighting-design'
 ```
 
 ###

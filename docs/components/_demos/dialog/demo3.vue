@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { ref } from 'vue'
-  import { FMessage } from '../../../../packages/fighting-design/message'
+  // import { FMessage } from '@wu-web/fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const visible3 = ref(false)
 

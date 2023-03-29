@@ -157,7 +157,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { TextareaInstance, TextareaProps, TextareaResize } from 'fighting-design'
+import type { TextareaInstance, TextareaProps, TextareaResize } from '@wu-web/fighting-design'
 ```
 
 ### TextareaResize

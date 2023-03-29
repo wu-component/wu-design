@@ -232,7 +232,7 @@ import type {
   LoadingInstance,
   LoadingPropsType,
   LoadingElInterface
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ## Contributors

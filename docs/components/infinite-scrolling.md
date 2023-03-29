@@ -114,7 +114,7 @@ import type {
   InfiniteScrollingInstance,
   InfiniteScrollingProps,
   ScrollCallback
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### ScrollCallback

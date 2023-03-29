@@ -110,7 +110,7 @@ import type {
   InputNumberInstance,
   InputNumberProps,
   InputNumberModel
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### InputNumberModel

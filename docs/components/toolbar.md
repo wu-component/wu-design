@@ -36,7 +36,7 @@
     FIconBlock,
     FIconCameraVideoSlash,
     FIconClock
-  } from '@fighting-design/fighting-icon'
+  } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -140,8 +140,8 @@
     FIconBlock,
     FIconCameraVideoSlash,
     FIconClock
-  } from '@fighting-design/fighting-icon'
-  import { FMessage } from 'fighting-design'
+  } from '@wu-web/fighting-icon'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const handleClick = (index, evt) => {
     FMessage.primary(`index：${index} evt：${evt}`)
@@ -197,7 +197,7 @@ import type {
   ToolbarClick
   ToolbarItemInstance,
   ToolbarItemProps,
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### ToolbarClick
@@ -217,8 +217,8 @@ type ToolbarClick = (index: string | null, evt: MouseEvent) => void
 </a>
 
 <script setup lang="ts">
-  import { FIconApps, FIconBlock, FIconCameraVideoSlash, FIconClock } from '@fighting-design/fighting-icon'
-  import { FMessage } from 'fighting-design'
+  import { FIconApps, FIconBlock, FIconCameraVideoSlash, FIconClock } from '@wu-web/fighting-icon'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const handleClick = (index, evt) => {
     FMessage.primary(`index：${index} evt：${evt}`)

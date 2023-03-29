@@ -12,6 +12,8 @@ import type MarkdownIt from 'markdown-it'
  * @see Introduction https://vitepress.vuejs.org/config/introduction
  */
 export default defineConfig({
+  // base: '/wu-design/',
+  base: '/wu-design/',
   title: 'Fighting Design',
   head,
   description,

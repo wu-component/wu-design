@@ -43,7 +43,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import type { DrawerDirection } from 'fighting-design'
+  import type { DrawerDirection } from '@wu-web/fighting-design'
 
   const visible1 = ref(false)
   const direction = ref<DrawerDirection>('right')
@@ -121,7 +121,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { DrawerInstance, DrawerProps, DrawerDirection } from 'fighting-design'
+import type { DrawerInstance, DrawerProps, DrawerDirection } from '@wu-web/fighting-design'
 ```
 
 ### DrawerDirection

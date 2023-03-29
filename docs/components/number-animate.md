@@ -72,7 +72,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import type { NumberAnimateInstance } from 'fighting-design'
+  import type { NumberAnimateInstance } from '@wu-web/fighting-design'
 
   const animate = ref<NumberAnimateInstance>()
 
@@ -111,7 +111,7 @@ import type {
   NumberAnimateInstance,
   NumberAnimateProps,
   AnimationEnd
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### AnimationEnd

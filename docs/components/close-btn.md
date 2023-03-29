@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FIconCross } from '@fighting-design/fighting-icon'
+  import { FIconCross } from '@wu-web/fighting-icon'
 </script>
 ```
 
@@ -39,7 +39,7 @@
 
 ```html
 <script lang="ts" setup>
-  import { FIconCross } from '@fighting-design/fighting-icon'
+  import { FIconCross } from '@wu-web/fighting-icon'
 </script>
 
 <template>
@@ -72,7 +72,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { CloseBtnInstance, CloseBtnProps } from 'fighting-design'
+import type { CloseBtnInstance, CloseBtnProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors
@@ -82,5 +82,5 @@ import type { CloseBtnInstance, CloseBtnProps } from 'fighting-design'
 </a>
 
 <script setup lang="ts">
-  import { FIconCross } from '@fighting-design/fighting-icon'
+  import { FIconCross } from '@wu-web/fighting-icon'
 </script>

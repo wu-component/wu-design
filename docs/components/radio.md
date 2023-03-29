@@ -288,7 +288,7 @@ import type {
   RadioGroundProps,
   RadioModelValue,
   RadioChange
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### RadioModelValue

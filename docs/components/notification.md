@@ -19,7 +19,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FNotification } from 'fighting-design'
+  import { FNotification } from '@wu-web/fighting-design'
 
   const openNotification = () => {
     FNotification({
@@ -51,7 +51,7 @@
 
 <script lang="ts" setup>
   import { h } from 'vue'
-  import { FNotification } from 'fighting-design'
+  import { FNotification } from '@wu-web/fighting-design'
 
   const openVNode = () => {
     FNotification({
@@ -94,7 +94,7 @@
 </template>
 
 <script setup lang="ts">
-  import { FNotification } from 'fighting-design'
+  import { FNotification } from '@wu-web/fighting-design'
 
   const openNotification = () => {
     FNotification({
@@ -210,8 +210,8 @@
 </template>
 
 <script setup lang="ts">
-  import { FNotification } from 'fighting-design'
-  import type { NotificationPlacement } from 'fighting-design'
+  import { FNotification } from '@wu-web/fighting-design'
+  import type { NotificationPlacement } from '@wu-web/fighting-design'
 
   const openNotificationPlacement = (placement: NotificationPlacement) => {
     FNotification({
@@ -265,7 +265,7 @@ import type {
   NotificationInstance,
   NotificationProps,
   NotificationPlacement
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### NotificationPlacement
@@ -290,7 +290,7 @@ type NotificationPlacement = 'top-left' | 'top-right' | 'bottom-left' | 'bottom-
 
 <script setup lang="ts">
   import { h } from 'vue'
-  import { FNotification } from 'fighting-design'
+  import { FNotification } from '@wu-web/fighting-design'
 
   const openNotification = () => {
     FNotification({

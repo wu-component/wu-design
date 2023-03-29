@@ -93,7 +93,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { ImagePreviewInstance, ImagePreviewProps } from 'fighting-design'
+import type { ImagePreviewInstance, ImagePreviewProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

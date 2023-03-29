@@ -101,7 +101,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { CollapseAnimationInstance, CollapseAnimationProps } from 'fighting-design'
+import type { CollapseAnimationInstance, CollapseAnimationProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

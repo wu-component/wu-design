@@ -1,11 +1,13 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style/vitepress.scss'
-// @ts-ignore
-import FightingDesign, { FStickyCard } from 'fighting-design'
+import FightingDesign, { FStickyCard } from '@wu-web/fighting-design'
+// import FightingDesign, { FStickyCard } from '@wu-web/fighting-design'
 import '@fighting-design/fighting-theme'
 import vpSearch from './components/vp-search.vue'
 
+
+console.log(FightingDesign)
 export default {
   ...Theme,
   Layout() {

@@ -35,7 +35,7 @@
 ```vue
 <script lang="ts" setup>
   import { reactive } from 'vue'
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const ruleForm = reactive({
     account: '',
@@ -100,8 +100,8 @@
 ```vue
 <script lang="ts" setup>
   import { reactive } from 'vue'
-  import { FMessage } from 'fighting-design'
-  import type { FormParam } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
+  import type { FormParam } from '@wu-web/fighting-design'
 
   const ruleForm2 = reactive({
     account: '',
@@ -191,7 +191,7 @@ import type {
   FormItemProps,
   FormItemRulesItem,
   FormItemRules
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### FormParam
@@ -236,7 +236,7 @@ type FormItemRules = FormItemRulesItem[]
 
 <script lang="ts" setup>
   import { reactive } from 'vue'
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const ruleForm = reactive({
     account: '',

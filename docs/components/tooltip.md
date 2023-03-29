@@ -152,7 +152,7 @@ import type {
   TooltipProps,
   TooltipPosition,
   TooltipState
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### TooltipPosition

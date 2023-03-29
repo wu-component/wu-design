@@ -159,7 +159,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { LinkInstance, LinkProps, LinkState } from 'fighting-design'
+import type { LinkInstance, LinkProps, LinkState } from '@wu-web/fighting-design'
 ```
 
 ### LinkState

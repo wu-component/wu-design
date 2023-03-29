@@ -113,7 +113,7 @@
 
 <script setup lang="ts">
   import { ref } from 'vue'
-  import { FMessage } from 'fighting-design'
+  import { FMessage } from '@wu-web/fighting-design'
 
   const visible3 = ref(false)
 
@@ -161,7 +161,7 @@
 组件导出以下类型定义：
 
 ```ts
-import type { DialogInstance, DialogProps } from 'fighting-design'
+import type { DialogInstance, DialogProps } from '@wu-web/fighting-design'
 ```
 
 ## Contributors

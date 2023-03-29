@@ -116,7 +116,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import { FIconCloud, FIconBlock } from '@fighting-design/fighting-icon'
+  import { FIconCloud, FIconBlock } from '@wu-web/fighting-icon'
 
   const current = ref(1)
   const total = ref(100)
@@ -200,7 +200,7 @@ import type {
   PaginationInstance,
   PaginationProps,
   PaginationEvent
-} from 'fighting-design'
+} from '@wu-web/fighting-design'
 ```
 
 ### PaginationEvent
@@ -223,7 +223,7 @@ type PaginationEvent = (current: number, pageSize: number, evt: MouseEvent) => v
   import demo1Vue from './_demos/pagination/demo1.vue'
   import demo2Vue from './_demos/pagination/demo2.vue'
   import demo3Vue from './_demos/pagination/demo3.vue'
-  import { FIconCloud, FIconBlock } from '@fighting-design/fighting-icon'
+  import { FIconCloud, FIconBlock } from '@wu-web/fighting-icon'
   import { ref } from 'vue'
 
   const current = ref(1)
